@@ -7,7 +7,7 @@
 //
 
 #import "ASViewController.h"
-
+#import "ExampleAPIUsage.h"
 @interface ASViewController ()
 
 @end
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    ExampleAPIUsage *example =[[ExampleAPIUsage alloc] init];
+    [example callAPI];
 }
 
 - (void)didReceiveMemoryWarning

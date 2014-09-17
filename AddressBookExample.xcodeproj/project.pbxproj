@@ -21,6 +21,13 @@
 		D84E3B2919CA169E00FC36F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84E3B0B19CA169D00FC36F7 /* UIKit.framework */; };
 		D84E3B3119CA169E00FC36F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D84E3B2F19CA169E00FC36F7 /* InfoPlist.strings */; };
 		D84E3B3319CA169E00FC36F7 /* AddressBookExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E3B3219CA169E00FC36F7 /* AddressBookExampleTests.m */; };
+		D84E3B3E19CA16BE00FC36F7 /* ServisBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E3B3D19CA16BE00FC36F7 /* ServisBase.m */; };
+		D84E3B4119CA171C00FC36F7 /* MyException.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E3B4019CA171C00FC36F7 /* MyException.m */; };
+		D84E3B4419CA187500FC36F7 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E3B4319CA187500FC36F7 /* ContactManager.m */; };
+		D84E3B4719CA18B800FC36F7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E3B4619CA18B800FC36F7 /* Reachability.m */; };
+		D84E3B4A19CA1DDC00FC36F7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E3B4919CA1DDC00FC36F7 /* Person.m */; };
+		D84E3B4D19CA226800FC36F7 /* ContactService.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E3B4C19CA226800FC36F7 /* ContactService.m */; };
+		D84E3B5619CA398600FC36F7 /* ExampleAPIUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E3B5519CA398600FC36F7 /* ExampleAPIUsage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,21 @@
 		D84E3B2E19CA169E00FC36F7 /* AddressBookExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddressBookExampleTests-Info.plist"; sourceTree = "<group>"; };
 		D84E3B3019CA169E00FC36F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D84E3B3219CA169E00FC36F7 /* AddressBookExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookExampleTests.m; sourceTree = "<group>"; };
+		D84E3B3C19CA16BE00FC36F7 /* ServisBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServisBase.h; sourceTree = "<group>"; };
+		D84E3B3D19CA16BE00FC36F7 /* ServisBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServisBase.m; sourceTree = "<group>"; };
+		D84E3B3F19CA171C00FC36F7 /* MyException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyException.h; sourceTree = "<group>"; };
+		D84E3B4019CA171C00FC36F7 /* MyException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyException.m; sourceTree = "<group>"; };
+		D84E3B4219CA187500FC36F7 /* ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactManager.h; sourceTree = "<group>"; };
+		D84E3B4319CA187500FC36F7 /* ContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactManager.m; sourceTree = "<group>"; };
+		D84E3B4519CA18B800FC36F7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D84E3B4619CA18B800FC36F7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D84E3B4819CA1DDC00FC36F7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D84E3B4919CA1DDC00FC36F7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D84E3B4B19CA226800FC36F7 /* ContactService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactService.h; sourceTree = "<group>"; };
+		D84E3B4C19CA226800FC36F7 /* ContactService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactService.m; sourceTree = "<group>"; };
+		D84E3B4E19CA249500FC36F7 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		D84E3B5419CA398600FC36F7 /* ExampleAPIUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleAPIUsage.h; sourceTree = "<group>"; };
+		D84E3B5519CA398600FC36F7 /* ExampleAPIUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleAPIUsage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +134,14 @@
 		D84E3B0D19CA169D00FC36F7 /* AddressBookExample */ = {
 			isa = PBXGroup;
 			children = (
+				D84E3B5119CA26DA00FC36F7 /* API */,
 				D84E3B1619CA169E00FC36F7 /* ASAppDelegate.h */,
 				D84E3B1719CA169E00FC36F7 /* ASAppDelegate.m */,
 				D84E3B1919CA169E00FC36F7 /* Main.storyboard */,
 				D84E3B1C19CA169E00FC36F7 /* ASViewController.h */,
 				D84E3B1D19CA169E00FC36F7 /* ASViewController.m */,
+				D84E3B5419CA398600FC36F7 /* ExampleAPIUsage.h */,
+				D84E3B5519CA398600FC36F7 /* ExampleAPIUsage.m */,
 				D84E3B1F19CA169E00FC36F7 /* Images.xcassets */,
 				D84E3B0E19CA169D00FC36F7 /* Supporting Files */,
 			);
@@ -150,6 +175,42 @@
 				D84E3B2F19CA169E00FC36F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D84E3B5119CA26DA00FC36F7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D84E3B5319CA270600FC36F7 /* Model */,
+				D84E3B5219CA26F200FC36F7 /* Servise */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		D84E3B5219CA26F200FC36F7 /* Servise */ = {
+			isa = PBXGroup;
+			children = (
+				D84E3B3C19CA16BE00FC36F7 /* ServisBase.h */,
+				D84E3B3D19CA16BE00FC36F7 /* ServisBase.m */,
+				D84E3B4B19CA226800FC36F7 /* ContactService.h */,
+				D84E3B4C19CA226800FC36F7 /* ContactService.m */,
+				D84E3B3F19CA171C00FC36F7 /* MyException.h */,
+				D84E3B4019CA171C00FC36F7 /* MyException.m */,
+			);
+			name = Servise;
+			sourceTree = "<group>";
+		};
+		D84E3B5319CA270600FC36F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D84E3B4219CA187500FC36F7 /* ContactManager.h */,
+				D84E3B4319CA187500FC36F7 /* ContactManager.m */,
+				D84E3B4819CA1DDC00FC36F7 /* Person.h */,
+				D84E3B4919CA1DDC00FC36F7 /* Person.m */,
+				D84E3B4E19CA249500FC36F7 /* Constant.h */,
+				D84E3B4519CA18B800FC36F7 /* Reachability.h */,
+				D84E3B4619CA18B800FC36F7 /* Reachability.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +312,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D84E3B1819CA169E00FC36F7 /* ASAppDelegate.m in Sources */,
+				D84E3B5619CA398600FC36F7 /* ExampleAPIUsage.m in Sources */,
 				D84E3B1E19CA169E00FC36F7 /* ASViewController.m in Sources */,
+				D84E3B4A19CA1DDC00FC36F7 /* Person.m in Sources */,
+				D84E3B4419CA187500FC36F7 /* ContactManager.m in Sources */,
+				D84E3B4719CA18B800FC36F7 /* Reachability.m in Sources */,
+				D84E3B4119CA171C00FC36F7 /* MyException.m in Sources */,
+				D84E3B4D19CA226800FC36F7 /* ContactService.m in Sources */,
+				D84E3B3E19CA16BE00FC36F7 /* ServisBase.m in Sources */,
 				D84E3B1419CA169E00FC36F7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
